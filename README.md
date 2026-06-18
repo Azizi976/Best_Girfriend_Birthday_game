@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎂 Birthday Quest: Operation Shili
+# 🎂 Birthday Quest: Operation Haim Shili
 
 ### _A highly scalable, mobile-first gamification engine for relationship memory recovery._
 
@@ -23,7 +23,7 @@
 
 <br />
 
-<img src="https://placehold.co/900x420/FFFDF9/FF7EB6?text=Operation+Shili+%E2%80%94+Memory+Recovery+Console" alt="Operation Shili dashboard preview" width="90%" />
+<img src="https://placehold.co/900x420/FFFDF9/FF7EB6?text=Operation+Shili+%E2%80%94+Memory+Recovery+Console" alt="Operation Haim Shili dashboard preview" width="90%" />
 
 </div>
 
@@ -53,17 +53,17 @@ Each completed mission restores a memory shard, awards experience points (XP), a
 
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend Framework** | Next.js 15 (App Router) |
-| **Language** | TypeScript (`strict` mode) |
-| **Styling** | Tailwind CSS 3 |
-| **Animation** | Framer Motion 11 |
-| **State Management** | Zustand 5 (with `persist` middleware) |
-| **Effects** | canvas-confetti · Web Vibration API |
-| **Icons** | lucide-react |
-| **Tooling** | ESLint · PostCSS · Autoprefixer · Sharp (icon pipeline) |
-| **Deployment** | Static Export → GitHub Pages / any static host |
+| Layer                  | Technology                                              |
+| :--------------------- | :------------------------------------------------------ |
+| **Frontend Framework** | Next.js 15 (App Router)                                 |
+| **Language**           | TypeScript (`strict` mode)                              |
+| **Styling**            | Tailwind CSS 3                                          |
+| **Animation**          | Framer Motion 11                                        |
+| **State Management**   | Zustand 5 (with `persist` middleware)                   |
+| **Effects**            | canvas-confetti · Web Vibration API                     |
+| **Icons**              | lucide-react                                            |
+| **Tooling**            | ESLint · PostCSS · Autoprefixer · Sharp (icon pipeline) |
+| **Deployment**         | Static Export → GitHub Pages / any static host          |
 
 ---
 
@@ -127,12 +127,12 @@ The development server boots at **`http://localhost:3000`**. For the authentic f
 
 ### 📦 Available Scripts
 
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Start the local development server |
-| `npm run build` | Produce a production build |
-| `npm run start` | Serve the production build |
-| `npm run lint` | Run ESLint static analysis |
+| Command         | Description                                 |
+| :-------------- | :------------------------------------------ |
+| `npm run dev`   | Start the local development server          |
+| `npm run build` | Produce a production build                  |
+| `npm run start` | Serve the production build                  |
+| `npm run lint`  | Run ESLint static analysis                  |
 | `npm run icons` | Regenerate PWA icons via the Sharp pipeline |
 
 > **Static PWA generation:** The production target is a fully static, CDN-cacheable bundle generated with Next.js `output: 'export'`, suitable for zero-cost hosting on GitHub Pages. _(See the deployment note in the repo before enabling — the current config ships custom headers that must be reconciled with export mode.)_
